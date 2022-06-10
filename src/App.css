@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.card1
+{
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container 
+{
+    max-width: 1300px;
+    margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.res 
+{
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gainsboro;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.restaurant 
+{
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.restaurant img 
+{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.restaurant img:hover
+{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.restaurant h3 
+{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.restaurant h4 
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input
+{
+    width: 70px;
+    height: 25px;
+}
+.bill
+{
+    background-color: #ffc300;
+    margin-top: 20px;
+    height: 385px;
+}
+.bill h1 
+{
+    padding: 20px;
+    text-align: center;
+    font-family:serif;
 }
